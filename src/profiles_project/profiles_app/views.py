@@ -32,3 +32,12 @@ class HelloApiView(APIView):
         name = serializer.data.get('name')
         message = f'Hello {name}'
         return Response({'message': message})
+
+    def put(self, request, primary_key=None):
+        return Response({'method': 'PUT'})
+
+    def patch(self, request, primary_key=None):
+        return Response({'method': 'PATCH'})
+
+    def delete(self, request, primary_key=None):
+        return Response({'method': 'DELETE'})
