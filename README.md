@@ -1,5 +1,12 @@
 # Profiles REST API
-REST API providing basic functionality for manging user profiles.
+REST API providing basic functionality for managing user profiles.
+
+## Development Tools:
+* Python
+* Django framework
+* Django REST framework
+* Vagrant
+* VirtualBox
 
 ## Functionality:
 * Create new profile
