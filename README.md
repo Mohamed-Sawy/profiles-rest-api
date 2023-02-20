@@ -10,13 +10,12 @@ REST API providing basic functionality for managing user profiles.
 
 ## Functionality:
 * Create new profile
-  - Validate profile data
-* List existing users
-* Search for user
-* Updating a profile
+* List existing profiles
+* Search for a profile by name or email
+* Update **your** profile
   - Update name / email
   - Change password
-* Delete a profile
+* Delete **your** profile
 
 ## URLs and HTTP Methods:
 * /api/profiles/
@@ -26,3 +25,4 @@ REST API providing basic functionality for managing user profiles.
   - `GET` : Get details of this profile
   - `PUT` / `PATCH` : Update this profile
   - `DELETE` : Delete this profile
+* /api/login
