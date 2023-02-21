@@ -5,8 +5,8 @@ from . import views
 
 router = DefaultRouter()
 router.register('profiles', views.UserProfileView)
-router.register('login', views.LoginView, basename='login')
 
 urlpatterns = [
+    path('login/', views.LoginView.as_view()),
     path('', include(router.urls))
 ]
